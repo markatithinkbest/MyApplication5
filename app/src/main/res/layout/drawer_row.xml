@@ -2,7 +2,9 @@
     android:layout_width="match_parent"
     android:layout_height="48dp">
 
+
     <TextView
+        android:layout_marginLeft="16dp"
         android:id="@+id/item_name"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -10,5 +12,5 @@
         android:drawablePadding="16dp"
         android:gravity="center_vertical"
         android:textColor="@color/myTextPrimaryColor"
-        android:textSize="14sp" />
+        android:textSize="18sp" />
 </LinearLayout>

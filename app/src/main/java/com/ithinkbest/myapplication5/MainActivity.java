@@ -1,7 +1,9 @@
 package com.ithinkbest.myapplication5;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
@@ -84,13 +86,18 @@ public class MainActivity extends ActionBarActivity
                 break;
 
             case 2: //my account //todo
-                fragment = new Game1Fragment();
-                getFragmentManager().beginTransaction().
-                        replace(R.id.container, fragment).commit();
-//                Log.d("MARK987", "Game1");
+                startActivity(new Intent(this,SettingsActivity.class));
                 break;
             case 3: //settings //todo
+                String str="https://www.facebook.com/photo.php?fbid=10206471308646571&set=a.3376409014087.2163744.1385190862&type=1&theater";
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(str));
+                startActivity(browserIntent);
                 break;
+            case 4:
+                String url = "http://www.ephotocloud.com/?page_id=88";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
         }
     }
 

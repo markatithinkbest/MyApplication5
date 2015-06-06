@@ -682,15 +682,15 @@ public static final String EXTRA_MESSAGE = "EXTRA_MESSAGE";
         final int index1 = b1.getPosition(val2);
         checkedList1.add(index1);
 
-//        SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(this);
+   SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getActivity());
 
         // Retrieves a string value for the preferences. The second parameter
         // is the default value to use if a preference value is not found.
-//        final String str = sharedPrefs.getString("android_speed", "1");
-        final String str = "3";
+        final String str = sharedPrefs.getString("android_speed", "1");
+//        final String str = "3";
 
         int intSpeed = Integer.valueOf(str);
-        final int adjSpeed = 400 * (4 - intSpeed); // 3->1, 2->2,1->3
+        final int adjSpeed = 100 * (4 - intSpeed); // 3->1, 2->2,1->3
 
 
         new AsyncTask<String, Long, String>() {

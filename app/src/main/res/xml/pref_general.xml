@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ListPreference
+        android:key="android_speed"
+        android:title="@string/pref_title_set_android_speed"
+        android:defaultValue="1"
+        android:entries="@array/pref_android_speed_titles"
+        android:entryValues="@array/pref_android_speed_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+</PreferenceScreen>

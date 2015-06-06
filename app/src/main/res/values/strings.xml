@@ -13,4 +13,8 @@
     <string name="human_android">Human vs Android</string>
     <string name="android_human">Android vs Human</string>
 
+    <string name="pref_title_set_android_speed">Set Android Speed</string>
+    <string name="amy_art">Art</string>
+    <string name="app_info">App Info</string>
+
 </resources>
