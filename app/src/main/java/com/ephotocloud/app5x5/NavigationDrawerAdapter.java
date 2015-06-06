@@ -1,4 +1,4 @@
-package com.ithinkbest.myapplication5;
+package com.ephotocloud.app5x5;
 
 
 import android.support.v7.widget.RecyclerView;
@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.ithinkbest.myapplication5.R;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.ithinkbest.myapplication5;
+package com.ephotocloud.app5x5;
 
 
 import android.content.Context;
@@ -11,6 +11,8 @@ import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
 import android.view.WindowInsets;
 import android.widget.FrameLayout;
+
+import com.ithinkbest.myapplication5.R;
 
 
 /**

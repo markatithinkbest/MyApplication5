@@ -1,4 +1,4 @@
-package com.ithinkbest.myapplication5;
+package com.ephotocloud.app5x5;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -26,6 +26,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.ithinkbest.myapplication5.R;
 
 import java.util.ArrayList;
 import java.util.List;

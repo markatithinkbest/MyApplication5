@@ -1,4 +1,4 @@
-package com.ithinkbest.myapplication5;
+package com.ephotocloud.app5x5;
 
 /**
  * Created by u1 on 2015/6/6.

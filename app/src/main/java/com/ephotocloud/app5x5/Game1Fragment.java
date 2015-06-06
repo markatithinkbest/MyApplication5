@@ -1,21 +1,17 @@
-package com.ithinkbest.myapplication5;
+package com.ephotocloud.app5x5;
 
 import android.app.Fragment;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v4.app.NavUtils;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,9 +19,10 @@ import android.widget.Button;
 import android.widget.TextView;
 
 //import com.ithinkbest.app5.b5util.*;
-import com.ithinkbest.myapplication5.b5util.B253;
-import com.ithinkbest.myapplication5.b5util.Board5x5;
-import com.ithinkbest.myapplication5.b5util.Board5x5Counter;
+import com.ithinkbest.myapplication5.R;
+import com.ephotocloud.app5x5.util.B253;
+import com.ephotocloud.app5x5.util.Board5x5;
+import com.ephotocloud.app5x5.util.Board5x5Counter;
 
 import java.util.ArrayList;
 import java.util.List;

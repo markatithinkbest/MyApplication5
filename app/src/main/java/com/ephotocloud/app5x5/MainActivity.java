@@ -1,4 +1,4 @@
-package com.ithinkbest.myapplication5;
+package com.ephotocloud.app5x5;
 
 import android.app.Fragment;
 import android.content.Intent;
@@ -12,7 +12,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
+
+import com.ithinkbest.myapplication5.R;
 
 
 public class MainActivity extends ActionBarActivity
@@ -134,6 +135,8 @@ public class MainActivity extends ActionBarActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            startActivity(new Intent(this,SettingsActivity.class));
+
             return true;
         }
 

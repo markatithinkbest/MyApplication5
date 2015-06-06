@@ -1,4 +1,4 @@
-package com.ithinkbest.myapplication5;
+package com.ephotocloud.app5x5;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -15,6 +15,8 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.preference.RingtonePreference;
 import android.text.TextUtils;
+
+import com.ithinkbest.myapplication5.R;
 
 import java.util.List;
 

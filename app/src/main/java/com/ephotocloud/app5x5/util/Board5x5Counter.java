@@ -1,9 +1,9 @@
-package com.ithinkbest.myapplication5.b5util;
+package com.ephotocloud.app5x5.util;
 
 public class Board5x5Counter implements Board5x5 {
     private static String LOG_TAG = "MARK987";
 
-    int lineCnt = Board5x5.ERROR_NOT_IN_CATEGORY;
+    int lineCnt = ERROR_NOT_IN_CATEGORY;
     int[] cells;
     int[] vals;
     int addedVal;
@@ -175,17 +175,17 @@ public class Board5x5Counter implements Board5x5 {
     @Override
     public void setChecked(int[] checked) {
         if (checked.length > 25) {
-            lineCnt = Board5x5.ERROR_ARRAY_SIZE_TOO_BIG;
+            lineCnt = ERROR_ARRAY_SIZE_TOO_BIG;
             return;
         }
         for (int i = 0; i < checked.length; i++) {
             if (checked[i] < 0) {
-                lineCnt = Board5x5.ERROR_ARRAY_VALUE_BELOW_MINUMUN;
+                lineCnt = ERROR_ARRAY_VALUE_BELOW_MINUMUN;
 
                 return;
             }
             if (checked[i] > 24) {
-                lineCnt = Board5x5.ERROR_ARRAY_VALUE_ABOVE_MAXINUM;
+                lineCnt = ERROR_ARRAY_VALUE_ABOVE_MAXINUM;
 
                 return;
             }

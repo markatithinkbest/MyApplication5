@@ -1,4 +1,4 @@
-package com.ithinkbest.myapplication5.b5util;
+package com.ephotocloud.app5x5.util;
 
 import java.util.Random;
 

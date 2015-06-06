@@ -1,4 +1,4 @@
-package com.ithinkbest.myapplication5.b5util;
+package com.ephotocloud.app5x5.util;
 
 public interface Board5x5 {
 	int[] line0={0,1,2,3,4};
