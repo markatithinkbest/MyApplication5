@@ -8,7 +8,7 @@
         android:id="@+id/navigationHeader"
         android:layout_width="match_parent"
         android:layout_height="168dp"
-        android:background="@drawable/amy_art_280"
+        android:background="@drawable/b5x5_480x300"
         android:paddingTop="24dp">
 
         <ImageView
